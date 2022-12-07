@@ -15,7 +15,7 @@ function App() {
   return (
     <Box>
       <AppBar>
-        <Toolbar style={{backgroundColor:"lightblue"}}> //light blue background color
+        <Toolbar style={{backgroundColor:"lightblue"}}>
           <Box>
             <Grid container direction="row" justifyContent="space-evenly" style={{width:"100vw"}}>
               <Grid item>
@@ -37,12 +37,12 @@ function App() {
 
       <Box 
       style={{
-        backgroundColor:"blue", width:"100vw", height:"100vh", //specifying background color & size for homepage below taskbar
+        backgroundColor:"white", width:"100vw", height:"100vh", //specifying background color & size for homepage below taskbar
         display:"flex", flexDirection:"column", 
         alignItems:"center", justifyContent:"center"}}>
-          <h1>Gator Calendar</h1> //website title
-          <text>some other stuff goes here I guess</text>
-          <h6>howdy</h6>
+          <h1>Gator Calendar</h1> 
+          <text>Welcome to the Gator Calendar App. Here, you can create custom calendars!</text>
+          <h6>Sign Up or Login at the top right!</h6>
       </Box>
     </Box>
   );
